@@ -1,0 +1,104 @@
+{
+  "gesamt": {
+    "umsatz": 3020,
+    "gewinn": 779,
+    "verkaufteWerke": 26
+  },
+  "kategorien": {
+    "labels": [
+      "Winderäder",
+      "Ölbild",
+      "Transparente 2015",
+      "Segel 2012",
+      "Segel 2005",
+      "Bild",
+      "Buch",
+      "Kalender"
+    ],
+    "umsatz": [
+      960,
+      750,
+      600,
+      300,
+      200,
+      180,
+      30,
+      0
+    ],
+    "gewinn": [
+      158,
+      248,
+      198,
+      99,
+      66,
+      0,
+      10,
+      0
+    ],
+    "anzahl": [
+      10,
+      1,
+      6,
+      3,
+      2,
+      1,
+      3,
+      0
+    ]
+  },
+  "kuenstler": {
+    "labels": [
+      "Juri Jander",
+      "Wilfried Bohne",
+      "Unbekannt",
+      "Peter Adle",
+      "Angelika Summa",
+      "Tine Hermann",
+      "Karola Smy",
+      "Anja Schindler",
+      "Christian Pfeipp",
+      "Andi Schnitt"
+    ],
+    "umsatz": [
+      750,
+      480,
+      180,
+      120,
+      120,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "gewinn": [
+      248,
+      158,
+      0,
+      0,
+      0,
+      33,
+      33,
+      33,
+      33,
+      33
+    ],
+    "anzahl": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "verkaufsstatistik": {
+    "verkauft": 26,
+    "gesamt": 67,
+    "verkaufsquote": 39
+  }
+}
