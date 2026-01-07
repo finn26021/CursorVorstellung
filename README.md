@@ -2,6 +2,8 @@
 
 Diese Präsentation demonstriert die Möglichkeiten von Cursor - von der Idee bis zur fertigen Website in Minuten statt Wochen.
 
+🚀 **Status:** GitHub Pages ist aktiviert und wird automatisch deployed!
+
 ## 🚀 GitHub Pages Deployment
 
 Diese Website wird automatisch auf GitHub Pages deployed, wenn Code zum `main` oder `master` Branch gepusht wird.
@@ -36,11 +38,13 @@ git remote add origin <DEINE-REPO-URL>
 git push -u origin main
 ```
 
-3. **GitHub Pages aktivieren**:
+3. **GitHub Pages aktivieren** (WICHTIG!):
    - Gehe zu deinem Repository auf GitHub
    - Klicke auf **Settings** → **Pages**
-   - Unter **Source** wähle **GitHub Actions**
+   - Unter **Source** (Build and deployment) wähle **"GitHub Actions"** (NICHT "Deploy from a branch"!)
+   - Falls "Deploy from a branch" ausgewählt ist, ändere es zu "GitHub Actions"
    - Der Workflow wird automatisch ausgeführt und die Website wird deployed
+   - Falls der Workflow nicht automatisch startet, gehe zu **Actions** und führe den Workflow manuell aus
 
 4. **Website aufrufen**:
    - Nach dem ersten Deployment findest du die URL unter **Settings** → **Pages**
